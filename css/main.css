@@ -1,0 +1,216 @@
+.navbar {
+    background: #F97300;
+}
+
+.nav-link, .navbar-brand {
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    background: #f4f4f4;
+    color: #f97300;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background: #fff !important;
+}
+
+/*header style*/
+
+.header {
+    background-image: url('../images/Screenshot_ReverseSim.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.reverseSimHeader {
+    background-image: url('../images/Screenshot_ReverseSim.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1 {
+    color: #F97300;
+}
+
+.description p {
+    color: #666;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.description button {
+    border: 1px solid #F97300;
+    background: #F97300;
+    color: #fff;
+}
+
+.about {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+
+.about h1 {
+    color: #F97300;
+    margin: 2em;
+    text-align: center
+}
+
+.about img {
+    height: auto;
+    width: 75%;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+
+.about span {
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+}
+
+.about .desc {
+    padding: 2em;
+    border-left: 4px solid #10828C;
+}
+
+.about .desc h3 {
+    color: #10828C;
+}
+
+.about .desc p {
+    line-height: 2;
+    color: #888;
+}
+
+.fa-envelope{
+    margin: 5px;
+    color: #F97300;
+}
+
+.fa-linkedin{
+    margin: 5px;
+    color: #F97300;
+}
+
+.footer {
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #F97300;
+}
+
+.footer-content p {
+    color: #f4f4f4;
+}
+
+/*Portfolio*/
+
+.portfolio {
+    margin: 4em 0;
+}
+
+.portfolio h1 {
+    color: #F97300;
+    margin: 2em;
+}
+
+.portfolio img {
+    height: 100%;
+    width: 100%;
+}
+
+.portfolio-link {
+    color: #888;
+    cursor: pointer;
+    text-align: center;
+}
+
+.portfolio-link:hover {
+    background: #f97300;
+    color: #f4f4f4;
+}
+
+.portfolioContent{
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 8em;
+}
+
+.portfolio a{
+    
+}
+
+.resume {
+    margin: 4em;
+}
+
+.resume h1 {
+    color: #F97300;
+    margin-top: 4em;
+}
+
+.resume .desc {
+    padding: 2em;
+    color: #888;
+}
+
+.resume h3 {
+    color: #10828C;
+    margin-left: 30px;
+}
+
+.reverseSim {
+    position: relative;
+}
+
+.reverseSim h1 {
+    color: #F97300;
+    margin: 2em;
+    text-align: center
+}
+
+.reverseSimDesc{
+    display: block;
+    color: #888;
+    position: absolute;
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-bottom: 6em;
+}
+
+.reverseSimDesc img{
+    width: 75%;
+    height: auto;
+}

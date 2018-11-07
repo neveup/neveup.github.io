@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>-->
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src='js/main.js'></script>
+
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    </head>
+
+    <body>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="index.html">Phillip Neveu | Game
+                Programmer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-4">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-value="portfolio"
+                            href="index.html#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-value="resume"
+                            href="index.html#resume">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="portfolioContent">
+            <div class="reverseSim">
+                <h1> Reverse Sim </h1>
+            </div>
+            <div class="reverseSimDesc">
+                <p>
+                    <b>Status: </b><span>In development</span>
+                </p>
+                <p>
+                    <b>Engine: </b><span>Unity</span>
+                </p>
+                <p>
+                    <b>Language: </b><span>C#</span>
+                </p>
+                <p>
+                    <b>Tools: </b><span>Unity, Visual Studio Code</span>
+                </p>
+                <p>
+                    <b>Code Snippits: </b>
+                    <a href="snippits/CarGameplay.cs" target="_blank" download>CarGameplay, </a>
+                    <a href="snippits/GameControl.cs" target="_blank" download>GameControl </a>
+                </p>
+                <p>
+                    The idea behind this game came after a silly discussion I
+                    had over lunch with some friends about reversing a car. I
+                    decided I could make a game out of it. I decided to make it
+                    for mobile as I wanted to learn more about mobile game
+                    development.
+                </p>
+                <p>
+                    I wanted to make the game feel unique to mobile. To
+                    accomplish this I used the core functionality found in
+                    current mobiles. Using the accelerometer to turn, the player
+                    has to reverse a car into parking space within a set time
+                    limit. I have also implemented the swipe function for
+                    changing view, for example swiping left switches the camera
+                    to look over the left shoulder.
+                </p>
+                <p>
+                    This project is currently a work in progress, below is some
+                    Alpha footage recorded from my mobile.
+                </p>
+                <div class="center-block">
+                    <video controls muted>
+                        <source src="videos/ReverseSim_Alpha.mp4"
+                            type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>

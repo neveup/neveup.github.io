@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>-->
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src='js/main.js'></script>
+
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    </head>
+
+    <body>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="index.html">Phillip Neveu | Game
+                Programmer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-4">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-value="portfolio"
+                            href="index.html#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-value="resume"
+                            href="index.html#resume">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="portfolioContent">
+            <div class="reverseSim">
+                <h1> Light Run </h1>
+            </div>
+            <div class="reverseSimDesc">
+                <p>
+                    <b>Status: </b><span>HIATUS</span>
+                </p>
+                <p>
+                    <b>Engine: </b><span>Unity</span>
+                </p>
+                <p>
+                    <b>Language: </b><span>C#</span>
+                </p>
+                <p>
+                    <b>Tools: </b><span>Unity, Visual Studio Code</span>
+                </p>
+                <p>
+                    Afraid of the dark was a prototype I created to better
+                    understand Unity's built in lighting functionality.
+                </p>
+                <p>
+                    The core idea is the player is afraid of the dark and loses
+                    health when he is in the dark, to replenish health a player
+                    must stand in a light. The player will complete some mini
+                    challenges on the way to the end of the level.
+                </p>
+                <p>
+                    The player has the ability to run, pickup, drop and throw
+                    items. Using these abilities the player must complete a
+                    challenge between each light.
+                </p>
+                <p>
+                    First challenge : A short zigzag corridor that the player
+                    has to sprint through.
+                    <div class="center-block">
+                        <img src="images/aotd_maze.PNG" class="img-fluid">
+                    </div>
+                </p>
+                <p>
+                    Second challenge : Using the blocks under the
+                    light the
+                    player has to get over the wall.
+                    <div class="center-block">
+                        <img src="images/aotd_walk.PNG" class="img-fluid">
+                    </div>
+                </p>
+                <p>
+                    Third challenge: Time a run past a rotating
+                    spotlight, if seen then its game over.
+                    <div class="center-block">
+                        <img src="images/aotd_spotlight.PNG">
+                    </div>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
