@@ -49,6 +49,13 @@
     background: rgba(244, 244, 244, 0.79);
 }
 
+.fa-arrow-down{
+    color: #f97300;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
 .description {
     position: absolute;
     top: 30%;
